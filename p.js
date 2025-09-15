@@ -137,8 +137,8 @@ for (let v = 20; v <= 30; v++) {
 // fungsi
 
 // document.getElementById("button").scrollIntoView({ behavior: 'smooth' });
+
 if (window.location.hash) {
     history.replaceState(null, "", window.location.pathname);
   }
 ;
-
